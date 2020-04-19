@@ -1,0 +1,131 @@
+body {
+  font-family: Glober;
+  background-color: #70afb8;
+  margin: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #008ba3;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+.logo a:hover {
+  background-color: #ffffff;
+  opacity: 1;
+}
+/* Change the background color on mouse-over */
+.header-right a:hover {
+  background-color: #eaeeed;
+  color: #005a48;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: #008d71;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  font-family: "Ropa Sans", sans-serif;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #00bcd4;
+  border-style: solid;
+  font-style: Arial;
+}
+/*Navigation */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #00bcd4;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  position: static;
+  font-size: 20px;
+  color: #ffffffec;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #094444;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+}
+
+/*content*/
+#content {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  color: #f0f0f0fd;
+  padding: 20px;
+  text-align: center;
+}
+
+#home {
+  text-align: center;
+}
+/*About us tag*/
+#button {
+  background-color: #1d5e69f5;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+address {
+  font-size: medium;
+  color: rgb(214, 214, 214);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
